@@ -147,10 +147,113 @@ span {
 }
 .quadrado {
     background-color: #f1f6fe;
-    border: 1px solid #8CA9CE;
+    border: 2px solid #8CA9CE;
     border-radius: 7px;
     text-align: center;
     padding: 15px 20px;
     margin: 0 20px;
     width: 230px;
+}
+
+/* DIVISAO */
+.divisao {
+    background-color:  #1150A3;
+    height: 2px;
+    
+}
+/* SERVIÇOS */
+.servicos .container {
+    flex-direction: column;
+}
+
+.servico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.servico .servico-titulo {
+    font-size: 700 24px 'Roboto Bold';
+    text-align: center;
+}
+.servico .servico-nome {
+    border: 2px solid#8CA9CE;
+    width: 275px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+/* EQUIPE */
+.equipe .container {
+    flex-direction: column;
+}
+
+.equipe .pessoas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe .pessoas .pessoa {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 25px;
+}
+
+.equipe .conteudo .texto {
+    text-align: justify;
+}
+
+/* FORMULARIO */
+.formulario  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formulario .informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endereco {
+    width: 250px;
+    border: 3px solid #1150A3;
+    height: 350px;
+    text-align: center;
+    padding: 80px 20px;
+    margin-right: 20px;
+    
+    
+}
+input {
+    height: 50px;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+
+textarea{
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: #106EEA;
+    color: white;
+    font: 700 20px 'Roboto Bold';
+    border-radius: 15px;
+    padding: 10px 15px;
 }
