@@ -258,3 +258,9 @@ button {
     padding: 10px 15px;
     margin: 0 60px;
 }
+
+main section,
+main .conteudo,
+.divisao {
+    margin-bottom: 80px;
+}
