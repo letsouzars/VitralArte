@@ -133,3 +133,24 @@ span {
 .sobreNos .conteudo {
     margin-right: 100px;
 }
+
+/* info */
+.infos .quadrados .quadrado img {
+    width: 100px;
+}
+
+.infos .quadrados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.quadrado {
+    background-color: #f1f6fe;
+    border: 1px solid #8CA9CE;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 20px;
+    width: 230px;
+}
