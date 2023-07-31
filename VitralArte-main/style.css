@@ -114,3 +114,22 @@ span {
 }
 
 /* TEXTO */
+.texto {
+    font: 500 20px 'Opensans Regular';
+}
+
+/* SOBRE NOS */
+.conteudo {
+    text-align: center;
+}
+
+.sobreNos .imagem img {
+    width: 500px;
+}
+.sobreNos .conteudo .texto {
+    text-align: justify;
+}
+
+.sobreNos .conteudo {
+    margin-right: 100px;
+}
