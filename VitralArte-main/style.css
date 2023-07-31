@@ -52,15 +52,15 @@ img {
   .contato {
     background-color: #106EEA;
   }
-  .contato .container {
+  .contato container {
     justify-content: flex-start;
-    height: 35px;
+    height: 30px;
   }
 
   .contato .container a {
     font: 500 30px 'OpenSans Regular';
     color: white;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
   /* HEADER */
@@ -97,7 +97,7 @@ img {
 
   /* TITULO */
   .titulo {
-    font: 700px 40px 'Roboto Bold';
+    font: 700px 40px 'Roboto Regular';
     color: black;
 
   }
